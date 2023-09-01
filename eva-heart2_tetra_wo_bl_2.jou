@@ -1,0 +1,12 @@
+/file/read-case "eva-heart2_tetra_wo_bl_2.cas"
+/file/read-data "eva-heart2_tetra_wo_bl_2.dat"
+/file/auto-save/case-frequency if-case-is-modified
+/file/auto-save/retain-most-recent-files yes
+/file/auto-save/max-files 100000
+/file/auto-save/data-frequency 10000
+/solve/dual-time-iterate 80000 35
+
+/define/models/unsteady-2nd-order? yes
+/file/auto-save/data-frequency 500
+/solve/dual-time-iterate 20000  35
+/exit
